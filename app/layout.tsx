@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Header, Footer } from "@/components";
+
 export const metadata: Metadata = {
   title: "Website Title",
   description: "This is a website description",
@@ -12,7 +14,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="relative">{children}</body>
+      <body className="relative min-h-screen flex flex-col">
+      <Header />
+      {children}
+      <Footer />
+      </body>
     </html>
   );
 }
