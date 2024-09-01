@@ -12,11 +12,11 @@ const Header = () => {
                         <Image src="/logo.png" alt="Logo" width={60} height={60}/>
                     </a>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center gap-x-4">
                     <a href="/about">About</a>
                     <a href="/contact">Contact</a>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center gap-x-4">
                     <a href="/account">
                         <UserCircleIcon className="size-6"/>
                     </a>
