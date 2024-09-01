@@ -1,4 +1,4 @@
-## Developer Guide
+# Developer Guide
 
 This guide provide instructions, standards, and best practices 
 to ensure effective collaboration and high-quality code.
@@ -26,4 +26,4 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## 2. Standards
 
-- Always use <Image /> component from `next/image` for images.
+- Always use Image component from `next/image` for images.
