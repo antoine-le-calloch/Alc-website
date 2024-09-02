@@ -24,6 +24,8 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## 2. Standards
+## 2. Code standards
 
-- Always use Image component from `next/image` for images.
+- Use Image component from `next/image` for images.
+- Use container from tailwindcss for each section.
+- Use mx-auto for centering container. 
