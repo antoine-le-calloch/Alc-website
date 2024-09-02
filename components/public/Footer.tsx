@@ -17,33 +17,33 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="flex flex-col justify-self-start items-center mx-8">
-                        <div className="font-bold mb-4">
+                        <div className="font-bold uppercase mb-4">
                             Information
                         </div>
-                        <Link href="/" className="uppercase">
+                        <Link href="/">
                             About
                         </Link>
-                        <Link href="/" className="uppercase">
+                        <Link href="/">
                             Contact
                         </Link>
                     </div>
                     |
                     <div className="flex flex-col justify-self-start items-center mx-8">
-                        <div className="font-bold mb-4">
+                        <div className="font-bold uppercase mb-4">
                             Policies
                         </div>
-                        <Link href="/" className="uppercase">
-                            Privacy Policy
+                        <Link href="/">
+                            Privacy
                         </Link>
-                        <Link href="/" className="uppercase">
-                            Refund Policy
+                        <Link href="/">
+                            Refund
                         </Link>
-                        <Link href="/" className="uppercase">
-                            Shipping Policy
+                        <Link href="/">
+                            Shipping
                         </Link>
                     </div>
                     |
-                    <Link href="/" className="font-bold mx-8">
+                    <Link href="/" className="font-bold uppercase mx-8">
                         Terms of Sale
                     </Link>
                 </nav>
