@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="bg-black text-white">
+        <footer className="bg-black text-white">
             <div className="container">
-                <div className="flex items-center justify-center flex-wrap px-4 py-8 gap-4">
+                <nav className="flex items-center justify-center flex-wrap px-4 py-8 gap-4">
                     <a href="/about" className="font-bold uppercase">
                         About
                     </a>
@@ -28,9 +28,9 @@ const Footer = () => {
                     <a href="/terms_of_sale" className="font-bold uppercase">
                         Terms of Sale
                     </a>
-                </div>
+                </nav>
             </div>
-        </div>
+        </footer>
     );
 };
 
