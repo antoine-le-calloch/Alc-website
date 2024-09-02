@@ -20,32 +20,32 @@ const Footer = () => {
                         <div className="font-bold mb-4">
                             Information
                         </div>
-                        <a href="/about" className="uppercase">
+                        <Link href="/" className="uppercase">
                             About
-                        </a>
-                        <a href="/contact" className="uppercase">
+                        </Link>
+                        <Link href="/" className="uppercase">
                             Contact
-                        </a>
+                        </Link>
                     </div>
                     |
                     <div className="flex flex-col justify-self-start items-center mx-8">
                         <div className="font-bold mb-4">
                             Policies
                         </div>
-                        <a href="/privacy_policy" className="uppercase">
+                        <Link href="/" className="uppercase">
                             Privacy Policy
-                        </a>
-                        <a href="/refund_policy" className="uppercase">
+                        </Link>
+                        <Link href="/" className="uppercase">
                             Refund Policy
-                        </a>
-                        <a href="/shipping_policy" className="uppercase">
+                        </Link>
+                        <Link href="/" className="uppercase">
                             Shipping Policy
-                        </a>
+                        </Link>
                     </div>
                     |
-                    <a href="/terms_of_sale" className="font-bold mx-8">
+                    <Link href="/" className="font-bold mx-8">
                         Terms of Sale
-                    </a>
+                    </Link>
                 </nav>
             </div>
         </footer>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from "next/image";
+import Link from "next/link";
 import {Cog6ToothIcon} from "@heroicons/react/24/outline";
 
 const LeftPanel = () => {
@@ -15,9 +16,9 @@ const LeftPanel = () => {
                 </div>
             </div>
             <div>
-                <a href="/admin/settings">
+                <Link href="/">
                     <Cog6ToothIcon className="size-6"/>
-                </a>
+                </Link>
             </div>
         </div>
     );
