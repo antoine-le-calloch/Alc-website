@@ -29,3 +29,6 @@ body {
 h1 {
   @apply text-4xl text-balance font-bold my-4;
 }
+h2 {
+  @apply text-3xl text-balance my-3;
+}
