@@ -27,4 +27,5 @@ Open [http://localhost:3000](http://localhost:3000).
 ## 2. Code standards
 
 - Use Image component from `next/image` for images.
+- Use Link component from `next/link` for links.
 - Use container from tailwindcss for each section.
