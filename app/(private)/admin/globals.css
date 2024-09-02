@@ -27,8 +27,8 @@ body {
 }
 
 h1 {
-  @apply text-4xl text-balance font-bold my-4;
+  @apply text-2xl text-balance font-bold my-2;
 }
 h2 {
-  @apply text-3xl text-balance my-3;
+  @apply text-xl text-balance my-1;
 }
