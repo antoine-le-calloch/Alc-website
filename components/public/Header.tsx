@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="flex items-center p-4">
                     <div className="flex flex-1 items-center">
                         <a href="/">
-                            <Image src="/logo.png" alt="Logo" width={60} height={60}/>
+                            <Image src="logo/logo.svg" alt="Logo" width={60} height={60}/>
                         </a>
                     </div>
                     <div className="flex items-center gap-x-4">
@@ -31,7 +31,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </header>
     );
 };
 
