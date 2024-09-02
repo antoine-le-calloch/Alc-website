@@ -5,10 +5,10 @@ import Image from "next/image";
 
 const Header = () => {
     return (
-        <div className="border-b border-gray-200">
+        <header className="border-b border-gray-200">
             <div className="container">
-                <div className="flex items-center p-4">
-                    <div className="flex flex-1 items-center">
+                <nav className="flex items-center p-4">
+                    <div className="flex-1">
                         <a href="/">
                             <Image src="logo/logo.svg" alt="Logo" width={60} height={60}/>
                         </a>
@@ -21,7 +21,7 @@ const Header = () => {
                             Contact
                         </a>
                     </div>
-                    <div className="flex flex-1 items-center justify-end gap-x-8">
+                    <div className="flex-1 flex items-center justify-end gap-x-8">
                         <a href="/account">
                             <UserCircleIcon className="size-8"/>
                         </a>
@@ -29,7 +29,7 @@ const Header = () => {
                             <ShoppingCartIcon className="size-8"/>
                         </a>
                     </div>
-                </div>
+                </nav>
             </div>
         </header>
     );
