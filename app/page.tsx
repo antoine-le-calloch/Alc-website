@@ -9,7 +9,7 @@ export default function Home() {
           <div className="container py-8">
               <div className="flex flex-col items-center justify-center mb-4">
                   <h2>Title 1</h2>
-                  <div>
+                  <div className="text-center">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
                       Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   </div>
@@ -18,7 +18,7 @@ export default function Home() {
           <div className="container py-8">
               <div className="flex flex-col items-center justify-center">
                   <h2>Title 2</h2>
-                  <div>
+                  <div className="text-center">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
                       Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   </div>
