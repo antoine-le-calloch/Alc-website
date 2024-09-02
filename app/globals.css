@@ -14,13 +14,18 @@
   }
 }
 
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
 body {
   color: rgb(var(--foreground));
   background: rgb(var(--background));
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+h1 {
+  @apply text-4xl text-balance font-bold my-4;
 }
