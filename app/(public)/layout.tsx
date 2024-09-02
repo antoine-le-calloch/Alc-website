@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "This is a website description",
 };
 
-export default function PublicLayout({children}: {
+export default function RootLayout({children}: {
     children: React.ReactNode
 }) {
   return (
