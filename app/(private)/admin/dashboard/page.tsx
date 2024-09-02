@@ -4,8 +4,12 @@ import React from 'react';
 
 const DashboardPage: React.FC = () => {
     return (
-        <div className="p-6">
-            <h1 className="text-3xl font-bold">Welcome to the web content management dashboard</h1>
+        <div className="container max-w-full">
+            <div className="flex">
+                <div className="h-full bg-amber-100">
+                    <div>Dashboard</div>
+                </div>
+            </div>
         </div>
     )
 };
