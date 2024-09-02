@@ -28,4 +28,3 @@ Open [http://localhost:3000](http://localhost:3000).
 
 - Use Image component from `next/image` for images.
 - Use container from tailwindcss for each section.
-- Use mx-auto for centering container. 
