@@ -5,6 +5,7 @@
 :root {
   --background: 255, 255, 255;
   --foreground: 0, 0, 0;
+  --panel: 255, 241, 168;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +18,9 @@
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  .panel-color{
+    background: rgb(var(--panel));
   }
 }
 
