@@ -1,9 +1,11 @@
 import React from 'react';
 
-const TopBar = () => {
+const TopBar = ({titleName}) => {
     return (
-        <div className="px-4 py-2 border-b border-gray-200 shadow-md">
-            <h1>Dashboard</h1>
+        <div className="px-4 py-6 border-b border-gray-200 shadow-md">
+            <div className="font-bold">
+                {titleName}
+            </div>
         </div>
     );
 };

@@ -9,7 +9,7 @@ export default function DashboardLayout({children}: {
             <div className="flex">
                 <LeftPanel/>
                 <div className="flex flex-col w-full">
-                    <TopBar/>
+                    <TopBar titleName={"Page name"}/>
                     {children}
                 </div>
             </div>
