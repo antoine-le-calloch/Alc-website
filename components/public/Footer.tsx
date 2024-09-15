@@ -11,10 +11,6 @@ const Footer = () => {
                         <Link href="/">
                             <Image src="/logo/logo_white.png" alt="Logo" width={40} height={40}/>
                         </Link>
-                        <div className="italic text-sm text-center">
-                            Antoine Le Calloch {new Date().getFullYear()}<br/>
-                            All rights reserved &copy;
-                        </div>
                     </div>
                     <div className="flex flex-col justify-self-start items-center mx-8">
                         <div className="font-bold uppercase mb-4">
@@ -47,6 +43,11 @@ const Footer = () => {
                         Terms of Sale
                     </Link>
                 </nav>
+            </div>
+            <div className="container">
+                <div className="flex justify-center italic text-sm text-center">
+                     Antoine Le Calloch © {new Date().getFullYear()} - All rights reserved.
+                </div>
             </div>
         </footer>
     );
