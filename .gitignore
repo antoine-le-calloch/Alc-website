@@ -29,7 +29,11 @@ npm-debug.log*
 next-env.d.ts
 
 # firebase
-firebase.jsx
+firebase*
+.firebase*
+
+# log
+*.log
 
 # project
 .idea/
