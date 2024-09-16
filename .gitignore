@@ -28,10 +28,6 @@ npm-debug.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# firebase
-firebase*
-.firebase*
-
 # log
 *.log
 
