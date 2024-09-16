@@ -4,7 +4,7 @@ import { getFirestore, connectFirestoreEmulator } from 'firebase/firestore';
 const firebaseConfig = {
     apiKey: "",
     authDomain: "",
-    projectId: "",
+    projectId: "project-id",
     storageBucket: "",
     messagingSenderId: "",
     appId: "",
@@ -13,7 +13,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-if (process.env.APP_ENV === 'DEV') {
+if (process.env.NEXT_PUBLIC_APP_ENV === 'DEV') {
     connectFirestoreEmulator(db, 'localhost', 8080);
 }
 
