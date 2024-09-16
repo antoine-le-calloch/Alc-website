@@ -1,5 +1,5 @@
 import React from 'react';
-import {LeftPanel, TopBar} from "@components/private";
+import {LeftPanel} from "@components/private";
 
 export default function DashboardLayout({children}: {
     children: React.ReactNode
@@ -9,7 +9,6 @@ export default function DashboardLayout({children}: {
             <div className="flex">
                 <LeftPanel/>
                 <div className="flex flex-col w-full">
-                    <TopBar titleName={null ? "Page name":"Dashboard"}/>
                     {children}
                 </div>
             </div>
