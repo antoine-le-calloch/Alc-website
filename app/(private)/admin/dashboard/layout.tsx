@@ -1,5 +1,5 @@
 import React from 'react';
-import {LeftPanel, TopBar} from "@/components/private";
+import {LeftPanel, TopBar} from "@components/private";
 
 export default function DashboardLayout({children}: {
     children: React.ReactNode
