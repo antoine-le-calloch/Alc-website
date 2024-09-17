@@ -6,7 +6,6 @@ import {PlusIcon} from "@heroicons/react/24/solid";
 
 type Page = {
     title: string;
-    text: string;
 };
 
 const PagesPage = () => {
