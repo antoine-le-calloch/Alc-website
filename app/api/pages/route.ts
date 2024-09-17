@@ -15,8 +15,8 @@ export async function GET(request: Request) {
 
 export async function POST(request: Request) {
     try {
-        // const data = await request.json();
-        await addDoc(collection(db, 'pages'), {title: 'Title', text: 'Text'});
+        const data = await request.json();
+        await addDoc(collection(db, 'pages'), data); 
         return NextResponse.json({}, { status: 201 });
     } catch (error) {
         let message = error instanceof Error ? error.message : String(error);
