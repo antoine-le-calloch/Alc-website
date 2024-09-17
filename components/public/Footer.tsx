@@ -45,8 +45,8 @@ const Footer = () => {
                 </nav>
             </div>
             <div className="container">
-                <div className="flex justify-center italic text-sm text-center">
-                     Antoine Le Calloch © {new Date().getFullYear()} - All rights reserved.
+                <div className="flex justify-center italic text-sm text-center mb-0.5">
+                     Antoine Le Calloch © {new Date().getFullYear()} - All rights reserved
                 </div>
             </div>
         </footer>
