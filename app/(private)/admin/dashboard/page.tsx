@@ -9,7 +9,7 @@ const DashboardPage: React.FC = () => {
             <TopBar titleName={"Dashboard"}/>
             <div className="container">
                 <div className="p-4">
-                    Content loading...
+                    No content.
                 </div>
             </div>
         </div>
