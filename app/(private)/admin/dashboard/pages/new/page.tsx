@@ -17,6 +17,9 @@ const PagesPage = () => {
                 'Content-Type': 'application/json'
             }
         });
+        if (response.ok) {
+            alert("New page successfully created !");
+        }
     }
     
     return (
