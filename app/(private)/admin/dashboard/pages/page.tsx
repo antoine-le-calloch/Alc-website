@@ -2,6 +2,7 @@
 
 import React, {useEffect, useState} from 'react';
 import Link from "next/link";
+import {PlusIcon} from "@heroicons/react/24/solid";
 
 type Page = {
     title: string;
@@ -34,14 +35,14 @@ const PagesPage = () => {
                     New
                 </Link>
             </div>
-            <div className="flex justify-center items-center border-t border-gray-500">
+            <div className="flex flex-col border-t border-gray-500">
                 { pages.length === 0 ? (
-                    <div className="my-4">{message}</div>
+                    <div className="my-4 text-center">{message}</div>
                 ) : (
                     pages.map((post: Page, index: number) => (
-                        <div key={index} className="border-b border-gray-200 p-4">
+                        <div key={index} className="flex items-center justify-between border-b border-gray-200 p-4">
                             <div className="font-bold">{post.title}</div>
-                            <div>{post.text}</div>
+                            <PlusIcon className="h-4 w-4 ml-2 text-gray-500" />
                         </div>
                     ))
                 )}
