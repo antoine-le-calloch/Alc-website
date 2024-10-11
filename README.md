@@ -12,6 +12,10 @@ to ensure effective collaboration and high-quality code.
 
 ### Installation
 
+Execute this line in the two projects behind:
+- The CMS (Alc-CMS)
+- The Frontend (Frontend)
+
 ```bash
 npm run dev
 # or
