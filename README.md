@@ -12,7 +12,7 @@ to ensure effective collaboration and high-quality code.
 
 ### Installation
 
-Execute this line in the two projects behind:
+Run this line in the following two projects:
 - The CMS (Alc-CMS)
 - The Frontend (Frontend)
 
