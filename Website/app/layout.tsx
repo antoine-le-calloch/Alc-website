@@ -1,7 +1,7 @@
 import React from 'react';
 import type { Metadata } from "next";
-import { Header, Footer } from "@components/public";
 import "./globals.css";
+import { Header, Footer } from '@/components';
 
 export const metadata: Metadata = {
   title: "Website Title",
