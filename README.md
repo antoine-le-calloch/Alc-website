@@ -13,8 +13,8 @@ to ensure effective collaboration and high-quality code.
 ### Installation
 
 Run this line in the following two projects:
-- The CMS (Alc-CMS)
-- The Frontend (Frontend)
+- The CMS
+- The Frontend
 
 ```bash
 npm run dev
@@ -27,6 +27,8 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
+
+### Development
 
 For offline development you can use firebase as follows:
 
