@@ -32,6 +32,20 @@ cd CMS
 firebase emulators:start --project project-id
 ```
 
+To export data from firestore:
+
+```bash
+cd CMS
+firebase emulators:export ./dump --project project-id
+```
+
+To start emulator with exported data:
+
+```bash
+cd CMS
+firebase emulators:start --import=./dump --project project-id
+```
+
 ## 2. Code standards
 
 - Use Image component from `next/image` for images.
