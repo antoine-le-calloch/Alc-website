@@ -18,12 +18,25 @@ Run this line in the following two projects:
 
 ```bash
 npm install
+```
+
+### Development
+
+To start the CMS:
+
+```bash
+cd CMS
+npm run dev
+```
+
+To start the frontend:
+
+```bash
+cd Frontend
 npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
-
-### Development
 
 For offline development you can use firebase as follows:
 
@@ -39,7 +52,7 @@ cd CMS
 firebase emulators:export ./dump --project project-id
 ```
 
-To start emulator with exported data:
+To start firestore with exported data:
 
 ```bash
 cd CMS
