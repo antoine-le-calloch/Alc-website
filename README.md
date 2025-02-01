@@ -68,6 +68,6 @@ firebase emulators:start --import=./dump --export-on-exit --project project-id
 
 ## 2. Code standards
 
-- Use Image component from `next/image` for images.
-- Use Link component from `next/link` for links.
-- Use container from tailwindcss for each section.
+- Use the Image component from `next/image` for images.
+- Use the Link component from `next/link` for links.
+- Use container from tailwind-css for each section.
