@@ -59,6 +59,13 @@ cd CMS
 firebase emulators:start --import=./dump --project project-id
 ```
 
+To start firestore with exported data and save data on shutdown:
+
+```bash
+cd CMS
+firebase emulators:start --import=./dump --export-on-exit --project project-id
+```
+
 ## 2. Code standards
 
 - Use Image component from `next/image` for images.
